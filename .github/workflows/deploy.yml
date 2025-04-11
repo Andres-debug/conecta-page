@@ -1,34 +1,37 @@
-name: Deploy Next.js site to Pages
+name: Deploy Next.js site to GitHub Pages
 
 on:
   push:
-    branches: ["master"]
-  workflow_dispatch:
+    branches: ["master"] # Despliega cuando se hace push a la rama master
+  workflow_dispatch: # Permite ejecutar el workflow manualmente
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 20
           cache: npm
+
       - name: Install dependencies
         run: npm ci
+
       - name: Build with Next.js
-        run: npm run build
-      - name: Touch .nojekyll
+        run: npm run build && npm run export
+
+      - name: Add .nojekyll
         run: touch out/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
