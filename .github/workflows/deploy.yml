@@ -35,6 +35,6 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages # La rama donde se desplegará el código construido
-          folder: out # La carpeta que contiene los archivos estáticos generados
-          clean: true # Eliminar archivos anteriores
+          branch: master  # ¡IMPORTANTE! Para repositorio organization.github.io debe ser main
+          folder: out   # La carpeta con los archivos generados
+          clean: true   # Eliminar archivos anteriores
