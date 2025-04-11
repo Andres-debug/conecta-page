@@ -34,7 +34,7 @@ jobs:
 
       - name: Upload artifact
         id: upload_artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           name: pages-artifact
           path: ./out
