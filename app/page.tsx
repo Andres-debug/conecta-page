@@ -72,7 +72,7 @@ export default function Home() {
           Transformamos <span className="bg-gradient-to-r from-slate-500 to-slate-600 bg-clip-text text-transparent">ideas</span> en software <span className="bg-gradient-to-r from-slate-500 to-slate-600 bg-clip-text text-transparent">excepcional</span>
         </h1>
         <p className="text-xl mb-8 text-gray-600 dark:text-gray-300 leading-relaxed">
-          Somos una startup especializada que ofrece soluciones tecnológicas de vanguardia adaptadas perfectamente a las necesidades únicas de tu negocio.
+          Somos una startup especializada que ofrece soluciones tecnológicas de vanguardia adaptadas perfectamente a las necesidades únicas de tu negocio
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link href="#contacto" className="px-8 py-4 bg-gradient-to-r from-slate-700 to-slate-900 hover:from-slate-800 hover:to-slate-950 text-white font-medium rounded-lg text-center transition-all shadow-lg hover:shadow-slate-500/20 flex items-center justify-center group">
