@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 // Necesitarás instalar esta librería: npm install @heroicons/react
 import { 
-  HomeIcon, 
   CodeBracketIcon, 
   DevicePhoneMobileIcon, 
   BuildingOfficeIcon,
@@ -10,7 +9,6 @@ import {
   ShieldCheckIcon, 
   WrenchScrewdriverIcon,
   MagnifyingGlassIcon,
-  SwatchIcon,
   RocketLaunchIcon,
   CheckBadgeIcon
 } from "@heroicons/react/24/outline";
