@@ -323,48 +323,6 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            
-            {/* Formulario de contacto simplificado */}
-            <div className="md:w-1/2 bg-white dark:bg-gray-900 rounded-2xl shadow-xl p-8 border border-gray-100 dark:border-gray-800">
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium mb-2" htmlFor="name">Nombre</label>
-                    <input 
-                      type="text" 
-                      id="name" 
-                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-slate-500 bg-transparent"
-                      placeholder="Tu nombre" 
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium mb-2" htmlFor="email">Email</label>
-                    <input 
-                      type="email" 
-                      id="email" 
-                      className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-slate-500 bg-transparent"
-                      placeholder="ejemplo@correo.com" 
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2" htmlFor="message">Mensaje</label>
-                  <textarea 
-                    id="message" 
-                    rows={4} 
-                    className="w-full px-4 py-3 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-slate-500 bg-transparent"
-                    placeholder="Cuéntanos sobre tu proyecto o consulta"
-                  ></textarea>
-                </div>
-                <button 
-                  type="submit"
-                  className="w-full bg-gradient-to-r from-slate-600 to-slate-800 hover:from-slate-700 hover:to-slate-900 text-white font-medium py-3 px-6 rounded-lg transition-all shadow-lg hover:shadow-slate-500/30 flex items-center justify-center group"
-                >
-                  <span>Enviar mensaje</span>
-                  <ChevronRightIcon className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-                </button>
-              </form>
-            </div>
           </div>
           
           {/* Enlace al portafolio */}
