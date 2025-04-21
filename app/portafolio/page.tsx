@@ -14,14 +14,14 @@ export default function Portfolio() {
     },
     {
       title: "DCLearn Web Admin",
-      description: "Plataforma de administración para sistema educativo digital. Gestión completa de cursos, estudiantes, recursos didácticos y métricas de aprendizaje.",
+      description: "Plataforma de administración para envio de signal de Trading y administracion de usuarios de la Empresa.",
       image: "/images/projects/DcLearn.PNG",
       technologies: ["NestJS", "Prisma", "React.JS", "Tailwind", "Zustand"],
       link: "#"
     },
     {
       title: "DClearn Mobile",
-      description: "Aplicación móvil de aprendizaje diseñada para acceso a contenidos educativos en cualquier lugar. Experiencia optimizada para dispositivos iOS y Android.",
+      description: "Aplicación móvil de aprendizaje diseñada para recibir en tiempo real signals de trading, valorar la efectividad de la signal y acceder a reuniones de zoom. Experiencia optimizada para dispositivos iOS y Android.",
       image: "/images/projects/DcLearnMobile.PNG", 
       technologies: ["React Native Expo", "Zustand", "NestJS", "Prisma"],
       link: "https://play.google.com/store/apps/details?id=com.parzival26.tradeproject&hl=es"
