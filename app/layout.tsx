@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ShroudSoft | Desarrollo de Software Innovador",
-  description: "Soluciones de software a medida para transformar tu negocio. Especialistas en desarrollo web, móvil y aplicaciones empresariales.",
+  title: "C&C Conecta Consultores | Servicios Integrales de Consultoría",
+  description: "Consultoría legal, servicios técnicos, desarrollo de software y gestión inmobiliaria. Soluciones integrales para empresas y particulares.",
 };
 
 export default function RootLayout({

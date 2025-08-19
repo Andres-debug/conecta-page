@@ -28,34 +28,39 @@ export default function Navbar() {
             <Link href="/" className="flex items-center space-x-2">
               <div className="w-10 h-10 overflow-hidden rounded-lg">
                 <Image
-                  src="/images/logo.PNG"
-                  alt="ShroudSoft Logo"
+                  src="/images/logo.jpeg"
+                  alt="C&C Conecta Consultores Logo"
                   width={40}
                   height={40}
                   className="w-10 h-10 object-cover"
                 />
               </div>
-              <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-slate-700 to-slate-900 dark:from-gray-200 dark:to-gray-100">
-                ShroudSoft
-              </span>
+              <div className="flex flex-col">
+                <span className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-blue-600 dark:from-green-400 dark:to-blue-400">
+                  C&C Conecta
+                </span>
+                <span className="text-sm font-medium text-gray-700 dark:text-gray-300 -mt-1">
+                  Consultores
+                </span>
+              </div>
             </Link>
           </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <Link href="/#servicios" className="font-medium text-gray-600 dark:text-gray-300 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
+            <Link href="/#servicios" className="font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors">
               Servicios
             </Link>
-            <Link href="/#tecnologias" className="font-medium text-gray-600 dark:text-gray-300 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
+            <Link href="/#tecnologias" className="font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors">
               Tecnologías
             </Link>
-            <Link href="/#proceso" className="font-medium text-gray-600 dark:text-gray-300 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
+            <Link href="/#proceso" className="font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors">
               Proceso
             </Link>
-            <Link href="/contacto" className="font-medium text-gray-600 dark:text-gray-300 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
+            <Link href="/contacto" className="font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors">
               Contacto
             </Link>
-            <Link href="/portafolio" className="font-medium text-gray-600 dark:text-gray-300 hover:text-slate-800 dark:hover:text-slate-200 transition-colors">
+            <Link href="/portafolio" className="font-medium text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400 transition-colors">
               Portafolio
             </Link>
           </div>
