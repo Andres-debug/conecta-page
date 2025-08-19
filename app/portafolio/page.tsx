@@ -25,6 +25,13 @@ export default function Portfolio() {
       image: "/images/projects/DcLearnMobile.PNG", 
       technologies: ["React Native Expo", "Zustand", "NestJS", "Prisma"],
       link: "https://play.google.com/store/apps/details?id=com.parzival26.tradeproject&hl=es"
+    },
+    {
+      title: "MundoConquist E-commerce",
+      description: "E-commerce en Wordpress con Elementor y Woocommerce para la venta de pines y productos personalizados.",
+      image: "/images/projects/mundoconquis.png", 
+      technologies: ["Wordpress","Elementor","Woocommerce"],
+      link: "https://mundoconquis.com/"
     }
   ];
 
